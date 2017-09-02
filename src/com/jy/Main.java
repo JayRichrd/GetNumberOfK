@@ -88,7 +88,7 @@ public class Main {
 			start = midIndex + 1;
 		else
 			end = midIndex - 1;
-		// 继续递归确定第一个k的位置
+		// 继续递归确定最后一个k的位置
 		return getIndexOfLastK(number, start, end, k);
 	}
 
